@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Q204
 {
     public int countPrimes(int n)

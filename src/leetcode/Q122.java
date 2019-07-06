@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Q122
 {
     public int maxProfit(int[] prices)

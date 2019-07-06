@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Q547
 {
     public int findCircleNum(int[][] M)

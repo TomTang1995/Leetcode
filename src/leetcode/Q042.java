@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.PriorityQueue;
 
 public class Q042

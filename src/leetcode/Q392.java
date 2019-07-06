@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Q392
 {
     public boolean isSubsequence(String s, String t)
