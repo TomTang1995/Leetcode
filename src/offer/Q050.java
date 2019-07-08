@@ -33,7 +33,10 @@ public class Q050
         return false;
     }
 
-    /*time complexity: O(n), space complexity: O(n)
+
+    /*
+    //An Alternative Solution
+    //time complexity: O(n), space complexity: O(n)
     public boolean duplicate(int numbers[],int length,int [] duplication)
     {
         boolean hasAppeared[] = new boolean[length];
