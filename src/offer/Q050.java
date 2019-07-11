@@ -12,6 +12,7 @@ public class Q050
 
     }
 
+
     public boolean duplicate(int numbers[],int length,int [] duplication)
     {
         boolean hasZeroAppeared = false;
