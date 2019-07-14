@@ -14,7 +14,7 @@ public class Q014
         for(i = 0;i < strs[0].length();i++)
         {
             char current = strs[0].charAt(i);
-            for(j = 1;i < strs.length;j++)
+            for(j = 1;j < strs.length;j++)
             {
                 if(i>=strs[j].length() || strs[j].charAt(i)!=current)
                     break;
