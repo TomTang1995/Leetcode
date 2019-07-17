@@ -38,7 +38,7 @@ public class Q022
         else
         {
             generateParenthesisHelper(n, alreadyNumber+1, remainedNumber, new String(temp+"("), list);
-            //剩下的）个数大于0 并且 已经有的（的个数需要大于）的个数，否则不匹配
+            //剩下的'）'个数大于0 并且 已经有的'（'的个数需要大于'）'的个数，否则不匹配
             if(remainedNumber>0 && (alreadyNumber+remainedNumber)>n)
                 generateParenthesisHelper(n, alreadyNumber, remainedNumber-1, new String(temp+")"), list);
         }
