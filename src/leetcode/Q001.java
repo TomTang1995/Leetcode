@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class Q001
 {
     public int[] twoSum(int[] nums, int target)

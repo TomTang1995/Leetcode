@@ -14,7 +14,7 @@ public class Q002
         {
             int sum = (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val) + (hasMore ? 1 : 0);
             current.next = new ListNode(sum % 10);
-            hasMore = sum >= 10 ? true : false;
+            hasMore = sum >= 10;
             current = current.next;
             l1 = l1 == null ? null : l1.next;
             l2 = l2 == null ? null : l2.next;
