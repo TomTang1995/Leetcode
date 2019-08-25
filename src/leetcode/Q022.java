@@ -28,10 +28,7 @@ public class Q022
         if(alreadyNumber == n)
         {
             if(remainedNumber == 0)
-            {
                 list.add(temp);
-                return;
-            }
             else
                 generateParenthesisHelper(n, alreadyNumber, remainedNumber-1, new String(temp+")"), list);
         }

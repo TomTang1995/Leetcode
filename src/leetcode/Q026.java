@@ -13,10 +13,7 @@ public class Q026
         while(searchIndex < nums.length)
         {
             if(nums[searchIndex] == lastNumber)
-            {
                 searchIndex++;
-                continue;
-            }
             else
             {
                 nums[insertIndex] = nums[searchIndex];

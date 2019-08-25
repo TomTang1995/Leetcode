@@ -23,6 +23,6 @@ public class Q020
             }
         }
 
-        return stack.isEmpty() ? true : false;
+        return stack.isEmpty();
     }
 }
