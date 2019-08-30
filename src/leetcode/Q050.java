@@ -14,17 +14,17 @@ public class Q050
             return 1.0;
 
         double result = 1.0;
-        int temp = Math.abs(n);
+        long temp = Math.abs((long)n);
 
         while(temp != 0)
         {
             if((temp&1) == 1)
                 result = result * x;
 
-            result = result * result;
+            x = x * x;
             temp = temp >>> 1;
         }
 
-        return n < 0 ? 1.0/result : result;
+        return n < 0 ? 1.0/result :result;
     }
 }
