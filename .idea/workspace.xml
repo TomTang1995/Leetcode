@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d6d607-7d71-47cd-b6bb-7bada7dc3d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Q104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Q105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Q136.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Q102.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Q136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="252">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,9 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/Q044.java" />
-        <option value="$PROJECT_DIR$/src/offer/Q045.java" />
-        <option value="$PROJECT_DIR$/src/offer/Q046.java" />
         <option value="$PROJECT_DIR$/src/offer/Q047.java" />
         <option value="$PROJECT_DIR$/src/offer/Q048.java" />
         <option value="$PROJECT_DIR$/src/offer/Q049.java" />
@@ -103,6 +101,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/Q078.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Q101.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Q102.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Q104.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Q105.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Q136.java" />
       </list>
     </option>
   </component>
@@ -149,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567241931062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567261246944" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -164,77 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q078">
-    <configuration name="Q050" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q050" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q069" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q069" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q075" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q075" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q078" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q078" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q096" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q096" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -257,22 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Q050" />
-      <item itemvalue="Application.Q096" />
-      <item itemvalue="Application.Q069" />
-      <item itemvalue="Application.Q075" />
-      <item itemvalue="Application.Q078" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Q078" />
-        <item itemvalue="Application.Q075" />
-        <item itemvalue="Application.Q069" />
-        <item itemvalue="Application.Q096" />
-        <item itemvalue="Application.Q050" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -298,6 +213,7 @@
       <workItem from="1566735829311" duration="1141000" />
       <workItem from="1566738788978" duration="1481000" />
       <workItem from="1567235748541" duration="5847000" />
+      <workItem from="1567243888704" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="update 2019.08.04">
       <created>1564891070604</created>
@@ -327,12 +243,12 @@
       <option name="project" value="LOCAL" />
       <updated>1567240091447</updated>
     </task>
-    <task id="LOCAL-00005" summary="update 2019.07.22">
-      <created>1563798691568</created>
+    <task id="LOCAL-00005" summary="update 2019.08.31">
+      <created>1567243909508</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1563798691568</updated>
+      <updated>1567243909508</updated>
     </task>
     <task id="LOCAL-00006" summary="update 2019.07.24">
       <created>1563980404668</created>
@@ -341,16 +257,16 @@
       <option name="project" value="LOCAL" />
       <updated>1563980404668</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12117000" />
+    <option name="totallyTimeSpent" value="15591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13270777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -440,21 +356,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update 2019.08.31" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/Q066.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Q001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Q007.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -772,7 +673,31 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/Q102.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Q104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Q105.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Q136.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
