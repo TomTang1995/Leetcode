@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d6d607-7d71-47cd-b6bb-7bada7dc3d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q069.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q075.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q078.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Q101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Q102.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Q078.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Q102.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="275">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/Q042.java" />
-        <option value="$PROJECT_DIR$/src/offer/Q043.java" />
         <option value="$PROJECT_DIR$/src/offer/Q044.java" />
         <option value="$PROJECT_DIR$/src/offer/Q045.java" />
         <option value="$PROJECT_DIR$/src/offer/Q046.java" />
@@ -104,12 +101,14 @@
         <option value="$PROJECT_DIR$/src/leetcode/Q069.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Q075.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Q078.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Q101.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Q102.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
     <option name="width" value="1945" />
     <option name="height" value="1045" />
   </component>
@@ -150,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567240074457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567241931062" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -298,7 +297,7 @@
       <workItem from="1564888000519" duration="4252000" />
       <workItem from="1566735829311" duration="1141000" />
       <workItem from="1566738788978" duration="1481000" />
-      <workItem from="1567235748541" duration="4210000" />
+      <workItem from="1567235748541" duration="5847000" />
     </task>
     <task id="LOCAL-00001" summary="update 2019.08.04">
       <created>1564891070604</created>
@@ -321,12 +320,12 @@
       <option name="project" value="LOCAL" />
       <updated>1565264814582</updated>
     </task>
-    <task id="LOCAL-00004" summary="update 2019.07.17">
-      <created>1563358062732</created>
+    <task id="LOCAL-00004" summary="update 2019.08.31">
+      <created>1567240091446</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1563358062732</updated>
+      <updated>1567240091447</updated>
     </task>
     <task id="LOCAL-00005" summary="update 2019.07.22">
       <created>1563798691568</created>
@@ -342,17 +341,16 @@
       <option name="project" value="LOCAL" />
       <updated>1563980404668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10480000" />
+    <option name="totallyTimeSpent" value="12117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -364,7 +362,7 @@
       <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.296034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.296034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4490085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,23 +436,10 @@
     <MESSAGE value="update 2019.08.04" />
     <MESSAGE value="update 2019.08.06" />
     <MESSAGE value="update 2019.08.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2019.08.08" />
+    <MESSAGE value="update 2019.08.31" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2019.08.31" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/offer/Q064.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Q065.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/Q066.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,8 +754,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Q078.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="275">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Q101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Q102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
