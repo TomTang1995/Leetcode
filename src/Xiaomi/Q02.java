@@ -5,7 +5,7 @@ import structures.TreeNode;
 import java.util.Stack;
 
 public class Q02
-{
+{/*
     //static Stack<Character> stack = new Stack<>();
     static StringBuilder sb = new StringBuilder();
 
@@ -65,8 +65,6 @@ public class Q02
     }
 
 
-
-    /*
     static TreeNode buildTree(String input)
     {
         if(input==null || input.length()==0)
@@ -112,7 +110,7 @@ public class Q02
             }
         }
     }
-    */
+
     // 1(2(3,4(,5)),6(7,))
     static void inOrder(TreeNode root)
     {
@@ -123,5 +121,6 @@ public class Q02
         sb.append(String.valueOf(root.val));
         inOrder(root.right);
     }
+    */
 }
 
