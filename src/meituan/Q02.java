@@ -26,7 +26,7 @@ class Operation implements Runnable
 {
     public static Lock lock = new ReentrantLock();
     public ReviewEncourage reviewEncourage;
-    PrizePool prizePool;
+    public PrizePool prizePool;
     public int type;
 
     public Operation()
