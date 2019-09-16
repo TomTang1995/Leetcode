@@ -2,6 +2,18 @@ package leetcode;
 
 public class Q208
 {
+    static class TrieNode
+    {
+        char data;
+        boolean isEnd;
+        TrieNode children[];
+
+        public TrieNode()
+        {
+            this.children = new TrieNode[26];
+        }
+    }
+
     TrieNode root = null;
 
     /** Initialize your data structure here. */
@@ -71,16 +83,4 @@ public class Q208
         return true;
     }
 
-}
-
-class TrieNode
-{
-    char data;
-    boolean isEnd;
-    TrieNode children[];
-
-    public TrieNode()
-    {
-        this.children = new TrieNode[26];
-    }
 }

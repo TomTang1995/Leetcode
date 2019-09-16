@@ -20,48 +20,27 @@ public class Q01
         // 和
         int k = in.nextInt();
 
-        System.out.println(threeSum(nums, k));
+        System.out.println(threeSumSmaller(nums, k));
     }
 
-    public static int threeSum(int nums[], int target)
+    public static int threeSumSmaller(int[] nums, int target)
     {
+        int count = 0;
         Arrays.sort(nums);
 
-        // dup
-        int dup[] = new int[nums.length];
-        for(int i = 1;i < dup.length;i++)
+        for(int i = 0; i < nums.length-2;i++)
         {
-            if(nums[i] == nums[i-1])
-                dup[i] = dup[i-1] + 1;
-            else
-                dup[i] = dup[i-1];
-        }
-
-        int count = 0;
-        int i = 0;
-        while(i < (nums.length-2))
-        {
-            int low = i+1, high = nums.length-1;
-            while(low < high)
+            int left = i+1, right = nums.length-1;
+            while(left < right)
             {
-                if(nums[low] + nums[high] < target-nums[i])
+                if(nums[i]+nums[left]+nums[right] < target)
                 {
-                    if(nums[low] == nums[low+1])
-                        count = count + (high - low) - (dup[high] - dup[low]) + 1;
-                    else
-                        count = count + (high - low) - (dup[high] - dup[low]);
-
-                    while(nums[low] == nums[low+1])
-                        low++;
-                    low++;
+                    count = count + right - left;
+                    left++;
                 }
                 else
-                    high--;
+                    right--;
             }
-
-            while(nums[i] == nums[i+1])
-                i++;
-            i++;
         }
 
         return count;

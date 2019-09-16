@@ -5,6 +5,23 @@ import java.util.Stack;
 // A complex solution
 public class Q155
 {
+    static class StackNode
+    {
+        int min;
+        int data;
+
+        public StackNode()
+        {
+
+        }
+
+        public StackNode(int min, int data)
+        {
+            this.min = min;
+            this.data = data;
+        }
+    }
+
     Stack<StackNode> stack;
 
     public Q155()
@@ -33,22 +50,5 @@ public class Q155
     public int getMin()
     {
         return stack.peek().min;
-    }
-}
-
-class StackNode
-{
-    int min;
-    int data;
-
-    public StackNode()
-    {
-
-    }
-
-    public StackNode(int min, int data)
-    {
-        this.min = min;
-        this.data = data;
     }
 }

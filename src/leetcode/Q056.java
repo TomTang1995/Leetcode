@@ -7,6 +7,18 @@ import java.util.List;
 
 public class Q056
 {
+    static class interval
+    {
+        int value1;
+        int value2;
+
+        interval(int value1, int value2)
+        {
+            this.value1 = value1;
+            this.value2 = value2;
+        }
+    }
+
     public int[][] merge(int[][] intervals)
     {
         if(intervals==null || intervals.length==0 || intervals[0].length==0)
@@ -52,17 +64,5 @@ public class Q056
         }
 
         return result;
-    }
-}
-
-class interval
-{
-    int value1;
-    int value2;
-
-    interval(int value1, int value2)
-    {
-        this.value1 = value1;
-        this.value2 = value2;
     }
 }

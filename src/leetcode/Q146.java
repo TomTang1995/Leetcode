@@ -5,6 +5,25 @@ import java.util.Map;
 
 public class Q146
 {
+    static class LRUCacheNode
+    {
+        int key;
+        int value;
+        LRUCacheNode prev;
+        LRUCacheNode back;
+
+        public LRUCacheNode()
+        {
+
+        }
+
+        public LRUCacheNode(int key, int value)
+        {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
     LRUCacheNode first;
     LRUCacheNode last;
     Map<Integer, LRUCacheNode> map;
@@ -112,24 +131,5 @@ public class Q146
                 size++;
             }
         }
-    }
-}
-
-class LRUCacheNode
-{
-    int key;
-    int value;
-    LRUCacheNode prev;
-    LRUCacheNode back;
-
-    public LRUCacheNode()
-    {
-
-    }
-
-    public LRUCacheNode(int key, int value)
-    {
-        this.key = key;
-        this.value = value;
     }
 }
