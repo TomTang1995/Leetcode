@@ -28,13 +28,11 @@ public class Q02
     {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int maxTime = 0;
         Pair[] pairs = new Pair[n];
-        for (int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++)
         {
             int addTime = scanner.nextInt();
             Long newFile = Long.valueOf(scanner.next());
-            maxTime = Math.max(addTime, maxTime);
             pairs[i] = new Pair(addTime, newFile);
         }
 

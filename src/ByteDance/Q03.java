@@ -29,9 +29,10 @@ public class Q03
 
         for(int l = 2; l <= n; l++)
         {
-            for(int i = 1; i + l - 1 <= n; i++)
-                dp[i][l] = Math.max(sum[i+l-1] - sum[i-1] - dp[i][l-1], sum[i+l-1] - sum[i-1] - dp[i+1][l-1]);
+            for(int i = 1;i+l-1 <= n;i++)
+                dp[i][l] = Math.max(sum[i+l-1]-sum[i-1]-dp[i][l-1], sum[i+l-1]-sum[i-1]-dp[i+1][l-1]);
         }
+
         return dp[1][n];
     }
 }
